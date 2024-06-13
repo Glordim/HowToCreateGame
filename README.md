@@ -16,7 +16,7 @@ Et posez-vous les bonnes questions.
 Faites le bilan de vos compétences et voyez en quoi votre contribution fera évoluer le projet.  
 Vous savez peut être programmer, modéliser des objets 3D, dessiner des personnages ou peut-être composer des musiques ? Le jeu vidéo réunit de nombreux domaines de compétence, veillez simplement à en faire partie.
 
-> [!CAUTION]
+> [!warning]
 > Il n'est pas rare de voir des porteurs de projet se présenter comme "Scénariste" ou "Chef de Projet" et je me dois de vous avertir sur l'utilité de ces "rôles". Ils ont tout à fait leur place dans de grosses et moyennes production mais dans la cas d'un projet amateur, où chaque personne compte, disons le franchement, ils ne serviront pas à grand chose... 
 >
 > Privilégiez plutôt les rôles de production comme programmeur ou graphiste !  
@@ -41,9 +41,9 @@ Si vous travaillez en équipe, assurez-vous d’être tous sur la même longueur
 
 Attaquons-nous maintenant à la composition d'une équipe.  
 
-[[information]]
-| Si vous avez choisi de travailler en solo, ne sautez pas cette partie.  
-| Je vous invite plutôt à vérifier que vous être capable d’endosser chacun des rôles que nous allons voir.
+> [!info]
+> Si vous avez choisi de travailler en solo, ne sautez pas cette partie.  
+> Je vous invite plutôt à vérifier que vous être capable d’endosser chacun des rôles que nous allons voir.
 
 Une bonne équipe est avant tout définie par : 
 
@@ -57,8 +57,6 @@ Dans le cadre d'un projet amateur, il est impératif de ne pas dépasser une cer
 Voici quelques chiffres pour illustrer mes propos, une équipe de 10 personnes ou plus est, à mon sens, une erreur... les projet les plus complexe s'en sortiront avec une équipe de 4 ou 5 personnes mais en pratique une équipe de 2 à 4 personnes me parait plus réaliste.
 
 Le plus important dans une équipe, c'est qu'elle tienne la route sur le long terme. Prenez le temps de connaitre les personnes avec qui vous compter travailler avant de vous lancer.
-
-
 
 ## Est-ce que mon équipe tient la route ?
 
@@ -140,16 +138,13 @@ La viabilité d'un jeu vidéo est souvent déterminé lors des premiers instants
 ---
 ## On fait un jeu *From Scratch* ?
 
-*[From Scratch]: signifie "à partir de rien" en français
-*[EA]: Electronic Arts
-
 From Scratch est une méthode consistant à tout recréer soi même.
 
 Bien qu'elle puisse procurer un sentiment de pouvoir et de perfection, je vous la déconseille fortement !  
 Pour un amateur, elle représenterait une quantité hallucinante de travail et vous ne sortiriez jamais de la phase de prototypage.
 
-[[information]]
-| En pratique, cette méthode est réservée aux géants du secteur tel que EA ou Ubisoft. Elle nécessite des dizaines de millions d'euros ainsi qu'une bonne centaine d'employés qualifiés.
+> [!info]
+> En pratique, cette méthode est réservée aux géants du secteur tel que EA ou Ubisoft. Elle nécessite des dizaines de millions d'euros ainsi qu'une bonne centaine d'employés qualifiés.
 
 Aujourd'hui, je ne vois qu'une seule raison qui pourrait justifier un tel choix : **la curiosité**.  
 En tant que programmeur, je comprend parfaitement cette envie de vouloir tout comprendre, et plus particulièrement pour l'apprentissage de la 3D à travers des API comme OpenGL, Vulkan, DirectX, Metal, etc... C'est un exercice très enrichissant que je conseille aux plus passionnés mais qui ne doit en aucun cas etre utilisé pour la création d'un projet serieux. :)
@@ -161,8 +156,8 @@ En tant que programmeur, je comprend parfaitement cette envie de vouloir tout co
 
 ## Et pourquoi pas des *Libs* ou un bon *Framework* ?
 
-[[information]]
-| Pour les "non techniques", une lib peut être perçue comme un morceaux de code pré-construit qui assure une base de travail solide et efficace en apportant diverses fonctionnalités comme le chargement d'images en mémoire par exemple.
+> [!info]
+> Pour les "non techniques", une lib peut être perçue comme un morceaux de code pré-construit qui assure une base de travail solide et efficace en apportant diverses fonctionnalités comme le chargement d'images en mémoire par exemple.
 
 En programmation, l'utilisation de libs est monnaie courante et de nombreux amateurs utilisent déjà la SFML et la SDL qui sont toutes deux des libs dites "Multimédia". Elles apportent une gestion de la fenêtre et de ses inputs (clavier / souris / joystick), du son et des éléments 2D.
 
@@ -171,8 +166,8 @@ En programmation, l'utilisation de libs est monnaie courante et de nombreux amat
 -> ![SFML Logo](http://zestedesavoir.com/media/galleries/2294/eed82956-df81-41d7-a3aa-1d8c39de5d49.png.960x960_q85.png)
 ![SDL Logo](http://zestedesavoir.com/media/galleries/2294/2298c489-0f86-47d5-90e8-de1330fd4d4f.png) <-
 
-[[information]]
-| Notez qu'il est tout de même possible de combler les lacunes de celles-ci en y ajoutant des libs complémentaires comme CeGui ou encore Box2D. Mais attention, leur intégration sera peut être une source de complication car elles ne sont pas forcément sur le même modèle !
+> [!info]
+> Notez qu'il est tout de même possible de combler les lacunes de celles-ci en y ajoutant des libs complémentaires comme CeGui ou encore Box2D. Mais attention, leur intégration sera peut être une source de complication car elles ne sont pas forcément sur le même modèle !
 
 Attaquons nous maintenant à une lib plus populaire : Ogre3D  
 Contrairement aux deux autres citées précédemment, elle est bien plus orienté jeu vidéo. Bien que ce ne soit qu'un moteur 3D (Graphic Engine), il embarque beaucoup de fonctionnalité utile pour tout jeu comme le chargement et l'animation de modèles 3D mais il gère aussi la fenêtre et ses inputs.
@@ -182,18 +177,17 @@ L'une des principales forces d'Ogre3D est sa modularité, il propose plusieurs s
 Bien qu'il ne rivalise pas avec les moteurs de jeu commerciaux, Ogre3D reste une alternative viable pour les amoureux de l'OpenSource et c'est un exercice très enrichissant que je recommande encore une fois aux plus passionnés. Mais n'oubliez pas que c'est encore une fois dans un esprit de découverte et non de production. :)
 
 -> ![Ogre3D Logo](http://zestedesavoir.com/media/galleries/2294/52d6ff89-8741-44a4-9cef-ccdaff76eada.png.960x960_q85.png) <-
+
 ---
 
 ## Et un *GameEngine* ?
-
-*[GameEngine]: Moteur de jeu
 
 Les GameEngine (Moteur de jeu) sont des logiciels conçus spécialement pour la création de jeux vidéos. Ils fournissent un large éventail de fonctionnalités rassemblées dans un seul et même logiciel : **l’éditeur**.
 
 Et c'est la toute la force d'un GameEngine, contrairement aux librairies, il apporte une homogénéité à vos outils et à votre projet. Notez aussi qu'il offrira une interface intuitive qui plaira d'avantage aux membres non technique de votre projet.
 
-[[question]]
-| C'est bien joli tout ça mais j'ai entendu dire que les moteurs de jeu ne sont pas capable de proposer n'importe quelle type de GamePlay. Est-ce qu'on pourrait faire un RPG, un FPS et un RTS sur le même moteur ?
+> [!question]
+> C'est bien joli tout ça mais j'ai entendu dire que les moteurs de jeu ne sont pas capable de proposer n'importe quelle type de GamePlay. Est-ce qu'on pourrait faire un RPG, un FPS et un RTS sur le même moteur ?
 
 Il n'y a pas de réponse exacte à cette question car tout dépend du moteur concerné. Certains se veulent générique et d'autre sont complètement spécialisé. C'est par exemple le cas de RpgMarker qui est spécialisé dans la création de Rpg 2D tour par tour, un peu à la manière des premiers Final Fantasy. On pourrait aussi citer FpsCreator qui est spécialisé dans les FPS. Mais fort heureusement ce n'est pas le cas de tout les moteurs, certains sont suffisamment génériques pour pouvoir créer absolument tout ce qui vous passera par la tête (aussi bien en 2D qu'en 3D) !
 
@@ -204,17 +198,16 @@ Personnellement je vous conseille fortement de vous orienter vers un moteur gén
 - Ils possèdent généralement une très forte communauté.
 - Ils sont régulièrement mis à jour.
 
-[[question]]
-| Comment ça peu onéreux !  
-| Tu veux dire qu'on va devoir mettre la main à la poche ?
+> [!question] Comment ça peu onéreux !  
+> Tu veux dire qu'on va devoir mettre la main à la poche ?
 
 Pas tout à fait.  
 Certains moteur sont gratuit du moment que les revenus générer par votre jeu n’excèdent pas les 100 000\$ US (**Unity 5**). D'autres réclameront 5% de royalties sur vos recettes au delàs de 3 000\$ / trimestre (**Unreal Engine 4**) et certains sont même complètement gratuit ! (**CryEngine**). ^^
 
 Personnellement j'ai utilisé Unity pour produire mon premier jeu sérieux, c'est à mes yeux le moteur le plus accessible mais ne me suivez pas les yeux fermé ! Je vous conseille de vous faire votre propre avis sur la question en testant les moteurs qui vous attirent le plus.
 
-[[attention]]
-| Portez une attention particulière sur les conditions financières et sur les capacités d'export de chaque moteur. Certains moteur comme Unreal Engine et Unity permettent l'export sur un nombre impressionnant de plateformes mais ce n'est pas le cas de tous les moteurs !
+> [!warning]
+> Portez une attention particulière sur les conditions financières et sur les capacités d'export de chaque moteur. Certains moteur comme Unreal Engine et Unity permettent l'export sur un nombre impressionnant de plateformes mais ce n'est pas le cas de tous les moteurs !
 
 -> ![Unreal Engine 4 Logo](http://zestedesavoir.com/media/galleries/2294/66750e76-9f4e-464e-81e8-131a5c931f4b.png.960x960_q85.png)
 ![CryEngine Logo](http://zestedesavoir.com/media/galleries/2294/69262635-d742-4119-8a7a-5cfaf304fb04.png.960x960_q85.png) <-
