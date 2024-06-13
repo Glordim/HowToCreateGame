@@ -16,11 +16,11 @@ Et posez-vous les bonnes questions.
 Faites le bilan de vos compétences et voyez en quoi votre contribution fera évoluer le projet.  
 Vous savez peut être programmer, modéliser des objets 3D, dessiner des personnages ou peut-être composer des musiques ? Le jeu vidéo réunit de nombreux domaines de compétence, veillez simplement à en faire partie.
 
-[[attention]]
-| Il n'est pas rare de voir des porteurs de projet se présenter comme "Scénariste" ou "Chef de Projet" et je me dois de vous avertir sur l'utilité de ces "rôles". Ils ont tout à fait leur place dans de grosses et moyennes production mais dans la cas d'un projet amateur, où chaque personne compte, disons le franchement, ils ne serviront pas à grand chose...  
-|
-| Privilégiez plutôt les rôles de production comme programmeur ou graphiste !  
-| Vous serez un véritable vecteur d'avancement pour votre projet.
+> [!CAUTION]
+> Il n'est pas rare de voir des porteurs de projet se présenter comme "Scénariste" ou "Chef de Projet" et je me dois de vous avertir sur l'utilité de ces "rôles". Ils ont tout à fait leur place dans de grosses et moyennes production mais dans la cas d'un projet amateur, où chaque personne compte, disons le franchement, ils ne serviront pas à grand chose... 
+>
+> Privilégiez plutôt les rôles de production comme programmeur ou graphiste !  
+> Vous serez un véritable vecteur d'avancement pour votre projet.
 
 ---
 
