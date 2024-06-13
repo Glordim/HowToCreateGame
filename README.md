@@ -90,3 +90,42 @@ SoundDesigner |
 Nombre | 0 ou 1  
 Utilité | Très limité  
 Description | Le travaille d'un *Sound Designer* consiste à produire les musiques et les effets sonores qui seront utilisé par le jeu. Bien qu'il s'agisse à première vu d'un élément important, il est souvent employé en prestation externe quand le développement du jeu atteint une certaine maturité. Les projets les moins fortunés pourront aussi se contenter de banques de sons payantes sur internet, le résultat ne sera pas aussi bon mais le prix sera nettement moins élevé !
+
+# Un projet adapté
+
+Bien !  
+Maintenant que nous avons étudier le facteur humain, attardons nous sur un autre point tout aussi important : **votre projet**.
+
+Chaque semaine de nombreux projets voient le jour mais très peu aboutissent, pourquoi ? :-°  
+Quels sont les erreurs à ne pas commettre et que faut il préparer en amont pour maximiser ses chances de réussite ?
+
+---
+
+# Les erreurs à ne pas commettre
+
+
+## Le plagia en mieux
+
+On ne compte plus le nombre de projet qui vise à recréer un jeu (souvent connu) mais en mieux.  
+Il s'agit bien souvent de projets voués à l’échec avant même qu'ils aient commencé. Les jeux plagiés sont pour la plupart des jeux qui ont nécessité des années de développement sans compter qu'ils sont pour la plupart issus d'équipes expérimentées.
+
+A mes yeux l'un des rares cas viables lorsqu'on plagie un jeu, c'est quand il date d'une autre époque. Quand  le matériel était bien plus limité (8mo de VRam sur une carte graphique) et la complexité bien plus grande (codé en assembleur).
+
+## Le projet révolutionnaire
+
+A l'inverse certains cherchent à innover, à créer ce qui n'a jamais existé sauf que parfois ils innovent un peu trop. ^^  
+
+L'idée semble bonne et plait à beaucoup de monde mais on néglige souvent l'aspect technique lors de ce léger moment d’euphorie. N'espérez pas créer un monde persistant en multijoueur capable d’accueillir des centaines  de joueurs avec du crafting sur un monde en voxel peuplé d’innombrables créatures.
+
+**Ne visez pas trop haut** (surtout si vous n'avez jamais fini de projet).
+
+## Le multijoueur
+
+De nos jours, la majorité des jeux vidéo sont jouable en ligne et l'aspect multijoueur prend de plus en plus de place dans l'esprit des joueurs.
+
+Mais attention au coût !  
+La location d'un serveur peut engendrer des gros surcoût pour un projet amateur. Pensez aussi à la charge de travail supplémentaire que représente au jeu multijoueur.
+
+---
+
+Au final, le plus précieux conseil que je puisse vous donner, c'est de ne pas chercher à aller trop vite. Ne multipliez pas les projets trop ambitieux et finissez ce que vous commencez ! Créer un ou deux petits jeux **complets** est bien plus enrichissant qu'une multitude de prototypes plus ou moins aboutis.
